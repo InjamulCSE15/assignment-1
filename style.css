@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    
+    color: #363958;
+    font-size: 40px;
+    line-height: 15px;
+}
+.name {
+    color: #f06a4c;
+}
+p{
+    font-size: 8px;
+    color: #3E3E3E; 
+    font-weight: normal;
+}
+.half-width{
+width: 40%;
+float: left;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 10%;
+}
+.first
+{background-color: white;}
