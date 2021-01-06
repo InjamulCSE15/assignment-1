@@ -83,30 +83,32 @@ h3{
     font-size: 25px;
 }
 .single-exp{
-    padding: 2%;
-    box-shadow: 10px 10px 40px gray;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px 5px rgba(128, 128, 128, 0.274);
     border-radius: 8px;
-    height: 30%;
-    width: 30%;
+    height: 70%;
+    width: 27%;
     background-color: white;
+    float: left;
 }
 .latest{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+    float: left;
+    height: 500px;
+    padding-bottom: 10%;
+    background-color: rgba(218, 207, 207, 0.144);
+
 }
-#full-stack{
-    border-left: 7px solid;
-    border-radius: 8px;
+.coloring{
+    color: #363958;
+    font-family:'Roboto', serif;
+    font-weight: 700;
+    font-size: 25px;
 }
-#beginner{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
-    border-radius: 8px;
-}
-footer p{
+#latest-section{
     text-align: center;
-    color: black;
-    font-size: 15px;
+    
+}
+.picture{
+    width: 100%;
 }
