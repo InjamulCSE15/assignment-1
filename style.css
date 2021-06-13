@@ -121,14 +121,14 @@ h3{
 .work{
    background-image: url("imges/works.png");
    background-size: 100%;
-   height: 400px;
+   height: 250px;
    clear: both;
    background-repeat: no-repeat;
    margin-left: 15%;
    margin-right: 15%;
    padding-top: 1%;
 }
-.initial{
+/* .initial{
     width: 40%;
     float: left;
     margin: 5%;
@@ -139,12 +139,12 @@ h3{
     text-align: center;
     font-weight: 400;
     font-size: 90px;
-}
-#Chat{
+} */
+/* #Chat{
     margin-left: 50%;
     padding: 25px 40px;
     border-radius: 8px;
-}
+} */
 .own{
     background-color: #e9c8c82c;
     background-size: 100%;
@@ -232,3 +232,25 @@ input:focus{
     font-size: 20px;
     color: red;
 }
+
+@media only screen and (min-width: 992px) {
+    .initial{
+        width: 50%;
+        float: left;
+        margin: auto;
+        padding-top: 3%;
+        text-align: center;
+    
+    }
+    #inquiry{
+        color: white;
+        text-align: center;
+        font-weight: 400;
+        font-size: 90px;
+    }
+    #Chat{
+        margin-left: 35%;
+        padding: 25px 40px;
+        border-radius: 8px;
+    }
+  } 
